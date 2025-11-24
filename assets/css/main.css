@@ -11,44 +11,38 @@
 	--max-width: 1200px;
 	--border-color: #27c957;
 	--container-background: aliceblue;
-	--box-shadow: 1px 1px #d299c2;
+	--box-shadow:  0 1px 3px rgba(0, 0, 0, 0.12);
 
 }
 
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
 
 body {
-    min-height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	min-height: 100vh;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	line-height: 1.5;
-    
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+
 }
+
 
 .top-container {
-	background-color: var(--primary-color-dark);
-	align-items: center;
-	flex-direction: row;
-	align-content: center;
-	width: var(--max-width);
-	padding: 10px;
-	margin-top: 10px;
-	border-radius: 15px;
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	max-width: var(--max-width);
+	margin: 20px auto;
+	padding: 10px;
 	gap: 1rem;
-	margin: 20px 90px;
-	box-shadow: var(--box-shadow);
-
-
+	background-color: var(--primary-color-dark);
+	border-radius: 15px;
+	box-shadow:var(--box-shadow);
 }
 
-.top-container h1 {
+.top-container-title h1 {
 	font-size: 20px;
 
 }

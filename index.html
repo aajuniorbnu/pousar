@@ -20,21 +20,21 @@
                     </svg></a></li>
             <li><a href="">Home</a></li>
             <li><a href="">Pacotes</a></li>
-            <li><a href="">Destion Nacionais</a></li>
-            <li><a href="">Destino Internacionais</a></li>
+            <li><a href="">Nacionais</a></li>
+            <li><a href="">Internacionais</a></li>
             <li><a href="">Contato</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Sobre nós</a></li>
+            <li><a href="">Sobre-nós</a></li>
         </ul>
         <ul>
             <li><a href="index.html" id="meu_logo">Pousar</a></li>
             <li class="hideOnMobile"><a href="">Home</a></li>
             <li class="hideOnMobile"><a href="">Pacotes</a></li>
-            <li class="hideOnMobile"><a href="">Destion Nacionais</a></li>
-            <li class="hideOnMobile"><a href="">Destino Internacionais</a></li>
+            <li class="hideOnMobile"><a href="">Nacionais</a></li>
+            <li class="hideOnMobile"><a href="">Internacionais</a></li>
             <li class="hideOnMobile"><a href="">Contato</a></li>
             <li class="hideOnMobile"><a href="">Blog</a></li>
-            <li class="hideOnMobile"><a href="">Sobre nós</a></li>
+            <li class="hideOnMobile"><a href="">Sobre-nós</a></li>
             <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
                         height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
                         <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
@@ -44,7 +44,9 @@
     </nav>
 
     <div class="top-container">
-        <h1>Pacotes de viagens</h1>
+        <div class="top-container-title">
+            <h1>Pacotes de viagens</h1>
+        </div>
         <div class="top-container-item">
             <div class="item">
                 <label for="origem">Origem</label>
@@ -57,18 +59,19 @@
         </div>
         <div class="top-container-item">
             <div class="item">
-                <label for="birthday">Entrada:</label>
-                <input type="date" id="Entrada" name="Entrada">
+                <label for="ida">Ida:</label>
+                <input type="date" id="ida" name="ida">
             </div>
             <div class="item">
-                <label for="birthday">Entrada:</label>
-                <input type="date" id="Entrada" name="Entrada">
+                <label for="volta">Volta:</label>
+                <input type="date" id="volta" name="volta">
             </div>
             <div class="item">
                 <button>Buscar</button>
             </div>
         </div>
     </div>
+
 
     <div class="banner-content">
         <div class="banner-item">
@@ -114,7 +117,7 @@
             <h3>Pou<span>sar</span></h3>
 
             <p class="footer-links">
-                <a href="#" >Política de cancelamento & Reembolso</a>
+                <a href="#">Política de cancelamento & Reembolso</a>
                 <a href="">Política de Privacidade</a>
                 <a href="">Termos de Uso</a>
                 <a href="">Faq</a>
