@@ -30,6 +30,7 @@ body {
 
 .top-container {
 	display: flex;
+	max-width: var(--max-width);
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
@@ -70,7 +71,7 @@ body {
 
 }
 
-:placeholder-shown {
+::placeholder-shown {
 	padding: 5px;
 	border-radius: 10px;
 	border-color: var(--border-color);
